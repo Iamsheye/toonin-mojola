@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 
-const HavenScreen = () => {
+const DeckScreen = () => {
   return (
     <View>
-      <Text>HavenScreen</Text>
+      <Text>DeckScreen</Text>
     </View>
   );
 };
 
-export default HavenScreen;
+export default DeckScreen;
 
 const styles = StyleSheet.create({});

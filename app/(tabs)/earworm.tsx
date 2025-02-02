@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 
-const HavenScreen = () => {
+const EarwormScreen = () => {
   return (
     <View>
-      <Text>HavenScreen</Text>
+      <Text>EarwormScreen</Text>
     </View>
   );
 };
 
-export default HavenScreen;
+export default EarwormScreen;
 
 const styles = StyleSheet.create({});
