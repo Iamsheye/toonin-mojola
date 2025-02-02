@@ -34,10 +34,30 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/SaansTRIAL-Regular.ttf",
+            "./assets/fonts/SaansTRIAL-Medium.ttf",
+            "./assets/fonts/SaansTRIAL-SemiBold.ttf",
+            "./assets/fonts/SaansTRIAL-Bold.ttf"
+          ]
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c4f1680e-fbe8-4195-823e-393182ae994d"
+      }
+    },
+    "owner": "iamsheye"
   }
 }
